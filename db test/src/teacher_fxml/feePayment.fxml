@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UiController">
+   <children>
+      <Text layoutX="24.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adm No" />
+      <Text layoutX="22.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name " />
+      <Text layoutX="22.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Form" />
+      <Text layoutX="22.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Academic Year" />
+      <Text layoutX="19.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year Balance" />
+      <Text layoutX="20.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount to Paid" />
+      <Text layoutX="26.0" layoutY="545.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank" />
+      <Text layoutX="21.0" layoutY="503.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mode of Payment" />
+      <Text layoutX="25.0" layoutY="590.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank slip/ check No /Transaction Code" />
+      <Text layoutX="20.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stream" />
+      <Text layoutX="23.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Paid By" />
+      <Text layoutX="24.0" layoutY="627.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date Deposited" />
+      <Text layoutX="22.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Term" />
+      <Text layoutX="22.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fee Balance" />
+      <Pane layoutX="-1.0" layoutY="3.0" prefHeight="115.0" prefWidth="1351.0" style="-fx-background-color: #003E59;" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fill="WHITE" layoutX="14.0" layoutY="67.0" opacity="0.74" strokeType="OUTSIDE" strokeWidth="0.0" text="Fees Payment">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <TextField layoutX="231.0" layoutY="141.0" prefHeight="25.0" prefWidth="239.0" />
+      <TextField layoutX="230.0" layoutY="179.0" prefHeight="25.0" prefWidth="239.0" />
+      <TextField layoutX="229.0" layoutY="255.0" prefHeight="25.0" prefWidth="239.0" />
+      <TextField layoutX="231.0" layoutY="217.0" prefHeight="25.0" prefWidth="239.0" />
+      <TextField layoutX="235.0" layoutY="570.0" prefHeight="25.0" prefWidth="239.0" />
+      <TextField layoutX="232.0" layoutY="484.0" prefHeight="25.0" prefWidth="239.0" />
+      <TextField layoutX="234.0" layoutY="608.0" prefHeight="25.0" prefWidth="239.0" />
+      <TextField layoutX="237.0" layoutY="646.0" prefHeight="25.0" prefWidth="239.0" />
+      <TextField layoutX="230.0" layoutY="291.0" prefHeight="25.0" prefWidth="239.0" />
+      <TextField layoutX="232.0" layoutY="442.0" prefHeight="25.0" prefWidth="239.0" />
+      <TextField layoutX="230.0" layoutY="359.0" prefHeight="25.0" prefWidth="239.0" />
+      <TextField layoutX="230.0" layoutY="327.0" prefHeight="25.0" prefWidth="239.0" />
+      <TextField layoutX="230.0" layoutY="404.0" prefHeight="25.0" prefWidth="239.0" />
+      <ComboBox layoutX="233.0" layoutY="528.0" prefHeight="25.0" prefWidth="239.0" promptText="Select Your Bank" />
+   </children>
+</AnchorPane>

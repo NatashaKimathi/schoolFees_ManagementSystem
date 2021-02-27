@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UiController">
+   <children>
+      <GridPane layoutX="12.0" layoutY="247.0" prefHeight="646.0" prefWidth="1350.0">
+         <children>
+            <TableView prefHeight="646.0" prefWidth="1478.0">
+               <columns>
+                  <TableColumn prefWidth="233.0" text="Student" />
+                  <TableColumn prefWidth="149.0" text="Adm No" />
+                  <TableColumn prefWidth="79.0" text="Form" />
+                  <TableColumn text="Stream" />
+                  <TableColumn prefWidth="107.0" text="Academic  Year" />
+                  <TableColumn prefWidth="88.0" text="Term" />
+                  <TableColumn prefWidth="124.0" text="Fees  Due" />
+                  <TableColumn prefWidth="130.0" text="Fees  Paid" />
+                  <TableColumn prefWidth="117.0" text="Fees  Balance" />
+               </columns>
+            </TableView>
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="745.0" minHeight="10.0" prefHeight="745.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <Pane layoutX="-2.0" prefHeight="133.0" prefWidth="1379.0" style="-fx-background-color: #0078D7;" AnchorPane.leftAnchor="-2.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text layoutX="63.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment List">
+               <font>
+                  <Font name="SansSerif Bold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <TextField layoutX="40.0" layoutY="175.0" prefHeight="34.0" prefWidth="314.0" promptText="search" style="-fx-background-color: #FFFFFF; -fx-border-color: #232323;" />
+      <ComboBox layoutX="711.0" layoutY="174.0" prefHeight="34.0" prefWidth="97.0" promptText="STREAM" />
+      <Button layoutX="1083.0" layoutY="173.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="257.0" style="-fx-background-color: #C66FE1;" text=" Add  Student" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <ComboBox layoutX="571.0" layoutY="174.0" prefHeight="34.0" prefWidth="97.0" promptText="FORM" />
+   </children>
+</AnchorPane>
